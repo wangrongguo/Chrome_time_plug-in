@@ -1,0 +1,21 @@
+{
+	// 清单版本号，建议使用 版本 2，版本 1 是旧的，已弃用，不建议使用
+	"manifest_version": 2,
+	"name": "myChromeCRX", // 插件名称
+	"version": "1.0", // 插件版本
+	// 这里写些废话，举个栗子，‘应产品要求，杀个程序祭天’
+	"description": "显示时间插件",
+	"icons": {
+		"128": "images/caomei_select.png"
+	},
+	"chrome_url_overrides": {
+		"newtab": "html/main.html"
+	},
+
+
+	"default_locale": "en",
+	"permissions": [
+		"tabs" // 标签
+	]
+
+}
